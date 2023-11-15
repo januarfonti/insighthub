@@ -2,13 +2,13 @@
 <template>
   <header class="py-4">
     <div class="container flex items-center justify-between ">
-      <NuxtLink to="/" class="font-bold">InsightHub</NuxtLink>
-      <nav class="flex items-center gap-10 text-sm">
-        <NuxtLink to="#fitur" class="">Tentang</NuxtLink>
-        <NuxtLink to="#fitur" class="">Fitur</NuxtLink>
-        <NuxtLink to="/faq" class="">FAQ</NuxtLink>
-        <NuxtLink to="/dokumentasi" class="">Dokumentasi</NuxtLink>
-        <NuxtLink to="/login" class="px-6 py-2 rounded-lg bg-gray-300 font-semibold">Isi Survey</NuxtLink>
+      <NuxtLink to="/" class="font-bold text-white hover:text-sky-600 transition">InsightHub</NuxtLink>
+      <nav class="hidden md:flex items-center gap-10 text-sm">
+        <NuxtLink to="#fitur" class="hover:text-white transition">Tentang</NuxtLink>
+        <NuxtLink to="#fitur" class="hover:text-white transition">Fitur</NuxtLink>
+        <NuxtLink to="/faq" class="hover:text-white transition">FAQ</NuxtLink>
+        <NuxtLink to="/dokumentasi" class="hover:text-white transition">Dokumentasi</NuxtLink>
+        <NuxtLink to="/login" class="px-6 py-2 rounded-lg bg-sky-600 hover:bg-sky-400 transition text-white font-semibold">Isi Survey</NuxtLink>
       </nav>
     </div>
   </header>
