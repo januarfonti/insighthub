@@ -1,6 +1,6 @@
 <!-- Header component, include brand on the left and others menu on the right, I'm using Nuxtjs 3-->
 <template>
-  <header class="py-4">
+  <header class="py-4 border-b border-slate-800">
     <div class="container flex items-center justify-between ">
       <NuxtLink to="/" class="font-bold text-white hover:text-sky-600 transition">InsightHub</NuxtLink>
       <nav class="hidden md:flex items-center gap-10 text-sm">
