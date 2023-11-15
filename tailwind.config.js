@@ -2,6 +2,9 @@
 export default {
   content: [],
   theme: {
+    container: {
+      center: true
+    },
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
@@ -10,4 +13,3 @@ export default {
   },
   plugins: [],
 }
-
