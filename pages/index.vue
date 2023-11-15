@@ -3,5 +3,6 @@
     <SectionHero />
     <SectionTentang />
     <SectionFitur />
+    <SectionFaq />
   </div>
 </template>
