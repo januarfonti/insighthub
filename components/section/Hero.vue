@@ -2,7 +2,10 @@
   <section class="py-10 md:py-20">
     <div class="container">
       <div class="flex flex-col items-center justify-center gap-4 md:gap-10">
-        <span class="px-3 py-1 bg-slate-600 text-white rounded-full text-xs">Wujudkan Pemahaman, Bentuk Masa Depan</span>
+        <span class="px-3 py-1 bg-slate-600 text-white rounded-full text-xs flex gap-2 items-center">
+          Wujudkan Pemahaman, Bentuk Masa Depan
+          <Icon name="heroicons:rocket-launch" size="1.3em" />
+        </span>
         <h1 class="text-2xl md:text-4xl lg:text-6xl font-bold text-center text-white max-w-5xl">InsightHub: Wawasan untuk Keputusan, Perubahan Positif.</h1>
         <p class="text-center max-w-5xl text-base md:text-xl">InsightHub adalah platform untuk mengumpulkan data dari responden yang dapat digunakan untuk keperluan riset, survei, dan lainnya. Dengan InsightHub, Anda dapat mengumpulkan data dari responden dengan mudah dan cepat.</p>
         <div class="gap-4 flex flex-wrap">
