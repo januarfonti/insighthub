@@ -14,7 +14,7 @@
         </p>
         <div class="flex justify-center gap-4">
           <NuxtLink to="/faq" class="px-4 h-9 md:px-6 md:h-11 flex whitespace-nowrap items-center text-sm rounded-lg bg-white hover:bg-sky-400 transition text-slate-900 font-semibold">Lihat FAQ</NuxtLink>
-          <NuxtLink to="/docs" class="px-4 h-9 md:px-6 md:h-11 flex whitespace-nowrap items-center text-sm rounded-lg  transition text-white hover:bg-white hover:text-slate-900 font-semibold border border-slate-600">Lihat Dokumentasi</NuxtLink>
+          <NuxtLink to="/dokumentasi" class="px-4 h-9 md:px-6 md:h-11 flex whitespace-nowrap items-center text-sm rounded-lg  transition text-white hover:bg-white hover:text-slate-900 font-semibold border border-slate-600">Lihat Dokumentasi</NuxtLink>
         </div>
       </div>
     </div>
