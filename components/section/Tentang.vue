@@ -1,9 +1,11 @@
 <template>
-  <div class="py-10 md:py-20">
-    <div class="container space-y-4">
-      <h1 class="text-white text-xl md:text-2xl font-bold text-center">Tentang InsightHub</h1>
-      <p class="max-w-2xl mx-auto text-center">Sebuah aplikasi survei kepuasan yang dapat digunakan oleh civitas akademika fakultas Vokasi untuk mengukur kepuasan mahasiswa, tenaga kependidikan, dan dosen fakultas Vokasi Universitas Brawijaya.</p>
-      <div class="flex gap-8 md:gap-10 py-8 md:py-20 md:flex-row flex-col-reverse">
+  <div id="tentang" class="pt-10 md:pt-20">
+    <div class="container space-y-12">
+      <div class="text-center">
+        <h1 class="text-white text-xl md:text-2xl font-bold">Tentang InsightHub</h1>
+        <p class="max-w-2xl mx-auto">Sebuah aplikasi survei kepuasan yang dapat digunakan oleh civitas akademika fakultas Vokasi untuk mengukur kepuasan mahasiswa, tenaga kependidikan, dan dosen fakultas Vokasi Universitas Brawijaya.</p>
+      </div>
+      <div class="flex gap-8 md:gap-10 md:flex-row flex-col-reverse">
         <div class="w-full md:w-2/3 space-y-4">
           <div v-for="(item, index) in items" :key="index" class="p-4 rounded space-y-2 border border-slate-800 hover:bg-slate-800 transition">
             <h2 class="text-lg md:text-xl text-white font-bold">{{ item.title }}</h2>

@@ -3,7 +3,7 @@
     <div class="container space-y-12">
       <div class="text-center">
         <h1 class="text-white text-xl md:text-2xl font-bold">Fitur</h1>
-        <p class="max-w-2xl mx-auto text-center">
+        <p class="max-w-2xl mx-auto">
           Fitur-fitur yang membuat InsightHub menjadi platform survei yang tepat untuk kebutuhan Anda.
         </p>
       </div>
