@@ -30,6 +30,9 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'FAQ'
+})
 const openedIndexFaq = ref<number | null>(null)
 const items = [
   {
